@@ -27,7 +27,7 @@ const bindValue = (value, el, binding, vnode) => {
     })
     objAvoided.push(el)
   } else {
-    mappingFunctions({b: value, push, once, focus, propagte, el: vnode.elm})
+    mappingFunctions({b: value, push, once, focus, propagte, el: vnode.el})
   }
 }
 
